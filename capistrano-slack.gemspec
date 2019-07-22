@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-slack"
-  gem.version       = "0.1"
+  gem.version       = "0.2"
   gem.authors       = ["Marco Matarazzo"]
   gem.email         = ["storm@elemental.it"]
   gem.description   = %q{Simple Capistrano 3 Slack notifier.}
