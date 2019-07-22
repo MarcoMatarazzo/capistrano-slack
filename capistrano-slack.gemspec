@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
-  gem.add_runtime_dependency "capistrano", "~> 3.3.5"
+  gem.add_runtime_dependency "capistrano", "~> 3.4"
   gem.add_runtime_dependency "slack-notifier"
 
   gem.add_development_dependency 'bundler'
